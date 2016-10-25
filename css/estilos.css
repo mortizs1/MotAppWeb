@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background: #f2f2f2;
+  font-family: "Roboto", Arial;
+  border-top: 30px solid #cc0052;}
+
+.title {
+  background: #cc0052;
+  font-family: "Roboto", Arial;
+  color: #f2f2f2;
+  text-align: center; }
+
+.wrap {
+  width: 90%;
+  max-width: 600px;
+  padding: 40px;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0px 0px 3px grey; }
+
+form{
+	font-family: "Roboto", Arial;
+	margin: auto;
+	width: 100%;
+	max-width: 500px;
+	padding: 30px;
+	border: 1px solid rgba(0,0,0,0,.2);
+}
+
+h2{
+	font-family: "Roboto", Arial;
+	text-align: center;
+	margin-bottom: 20px;
+	color: rgb(0,0,0,0.5);
+}
+h4{
+  font-family: 'Roboto', Arial;
+  text-align: center;
+  margin-bottom: 20px;
+  color: black;
+  background: white;
+}
+input{
+	display: block;
+	padding: 10px;
+	width: 100%;
+	margin: 30px 0;
+	font-size: 20px;
+  text-align: center;
+}
+.formulario input[type="submit"] {
+      background: #cc0052;
+      border-radius: 1px;
+      border: 2px solid #f2f2f2;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      padding: 15px;
+      width: 100%;
+      font-family: "Roboto", Arial;
+      font-size: 16px;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+      .formulario input[type="submit"]:hover {
+        background: #1976D2; }
+
+.contenedor-formulario {
+  width: 100%;
+  color: #f2f2f2;
+  padding: 50px; }
+  .contenedor-formulario .formulario {
+    width: 100%;
+    margin: auto; }
+    .contenedor-formulario .formulario .input-group {
+      position: relative;
+      margin-bottom: 32px; }
+      .contenedor-formulario .formulario .input-group input[type="text"],
+      .contenedor-formulario .formulario .input-group input[type="email"],
+      .contenedor-formulario .formulario .input-group input[type="url"],
+      .contenedor-formulario .formulario .input-group input[type="image"] {
+        font-family: "Roboto", Arial;
+        font-size: 16px;
+        color: #cc0052;
+        width: 100%;
+        outline: none;
+        padding: 15px;
+        background: none;
+        border: none;
+        border-bottom: 2px solid #ff80b3; }
+        .contenedor-formulario .formulario .input-group input[type="text"]:focus, .contenedor-formulario .formulario .input-group input[type="text"]:active,
+        .contenedor-formulario .formulario .input-group input[type="email"]:focus,
+        .contenedor-formulario .formulario .input-group input[type="email"]:active,
+        .contenedor-formulario .formulario .input-group input[type="url"]:focus,
+        .contenedor-formulario .formulario .input-group input[type="url"]:active,
+        .contenedor-formulario .formulario .input-group input[type="image"]:focus,
+        .contenedor-formulario .formulario .input-group input[type="image"]:active {
+          outline: none;
+          border-bottom: 2px solid #cc0052; }
+        .contenedor-formulario .formulario .input-group input[type="text"].error,
+        .contenedor-formulario .formulario .input-group input[type="email"].error,
+        .contenedor-formulario .formulario .input-group input[type="url"].error,
+        .contenedor-formulario .formulario .input-group input[type="image"].error {
+          border-bottom: 2px solid #ff0000; }
+          .contenedor-formulario .formulario .input-group input[type="text"].error + label,
+          .contenedor-formulario .formulario .input-group input[type="email"].error + label,
+          .contenedor-formulario .formulario .input-group input[type="url"].error + label,
+          .contenedor-formulario .formulario .input-group input[type="image"].error + label {
+            color: #ff0000; }
+      .contenedor-formulario .formulario .input-group label {
+        color: #cc0052; }
+        .contenedor-formulario .formulario .input-group label.label {
+          position: absolute;
+          top: 16px;
+          left: 0px;
+          font-size: 16px;
+          line-height: 16px;
+          margin-left: 16px;
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+          .contenedor-formulario .formulario .input-group label.label.active {
+            top: -12px;
+            font-size: 12px;
+            line-height: 12px;
+            color: divider; }
+
+    .contenedor-formulario .formulario .upload-file{
+      text-align: center;
+      width: 100%;
+    }
+
+    .contenedor-formulario .formulario .upload-file input[type="submit"]{
+    background: #000000;
+    border-radius: 1px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px;
+    width: 50%;
+    bottom: center;
+    font-family: 'Roboto', Arial;
+    font-size: 16px;
+    }
+
+    .contenedor-formulario .formulario .upload-file .titleh4{
+      background: white;
+      color: black;
+      width: 100%;
+      font-family: 'Roboto', Arial;
+    }
+    .contenedor-formulario .formulario .upload-file :hover{
+      background: grey;
+    }
+
+
+    .contenedor-formulario .formulario input[type="submit"] {
+      background: #cc0052;
+      border-radius: 1px;
+      border: 2px solid #f2f2f2;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      padding: 15px;
+      width: 50%;
+      font-family: "Roboto", Arial;
+      font-size: 16px;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+      .contenedor-formulario .formulario input[type="submit"]:hover {
+        background: #1976D2;
+      }
+
+      .contenedor-formulario .formulario .btn-submit{
+        text-align: center;
+      }
+      .contenedor-formulario .formulario .btn-submit input[type="submit"]:hover{
+        width: 100%;
+      }
+  .formulario-log .btn-log{
+    background: #1976D2;
+    width: 100%;
+    color: #cc0052;
+    cursor: pointer;
+    font-family: "Roboto", Arial;
+    font-size: 16px;
+    }
+   .formulario-log .btn-log input[type="submit"]:hover {
+    background: #1976D2;
+    }
+
+
+/*# sourceMappingURL=estilos.css.map */

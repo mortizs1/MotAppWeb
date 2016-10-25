@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/estilos.css">
+	<title>MotApp</title>
+</head>
+<body>
+	<div class="title">
+		<h1 >MotApp</h1>
+	</div>
+		<div class="contenedor-formulario"> 
+			<div class="wrap">
+			<!--Formulario-->
+				<form action="" class="formulario" name="formulario_registro" method="post">
+				<div>
+					<div class="input-group">
+						<input type="text" id="nombre" name="nameMotel">
+						<label class="label" for="nombre">Nombre motel:</label>
+					</div>
+					<div class="input-group">
+						<input type="text" id="descripcion" name="description">
+						<label class="label" for="descripcion">Breve descripcion:</label>
+					</div>
+					<div class="input-group">
+						<input type="text" pattern="-?\d{1,3}\.\d+" id="latitude" name="latitude">
+						<label class="label" for="latitude">Latitud:</label>
+					</div>
+					<div class="input-group">
+						<input type="text" pattern="-?\d{1,3}\.\d+" id="longitude" name="longitude">
+						<label class="label" for="longitude">Longitud:</label> 
+					</div>
+					<div class="upload-file">
+						<h4 class="titleh4">Selecciona la image:</h4>
+						<input type="file" id="image" name="uploadImage" >
+						<input type="submit" id="btn-upload" value="Cargar" >
+					</div>
+					<div class="btn-submit">
+					<input type="submit" id="btn-submit" value="Siguiente">
+					</div>
+				</div>
+				</form>
+			</div>
+		</div>
+	<script src="js/formulario.js"></script>
+</body>
+</html>
